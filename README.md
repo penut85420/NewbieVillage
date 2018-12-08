@@ -33,8 +33,8 @@
     > ![](https://i.imgur.com/rBIgLst.png)
 
 ---
-
 我打到這才發現下面有 Rails 安裝的指引...
 
 ---
 
+## Checkpoint Lv.2

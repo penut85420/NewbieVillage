@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,15 +10,34 @@
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script>
-  $( function() {
-    $( "#datepicker" ).datepicker();
-  } );
+    $(function () {
+      $("#date").datepicker();
+    });
+    $(document).ready(function () {
+      $("#submit").click(function () {
+        t = $("#date").datepicker("getDate")
+        r = new Date($.now()) - t
+        r = r/1000/60/60/24/365
+        if (r >= 18) {
+          alert("男人就該看彩虹小馬！")
+          window.location.href = "http://hdx3.blogspot.com/search/label/My%20Little%20Pony?max-results=200";
+        } else {
+          alert("孩子還是去遊樂園玩玩就好")
+          window.location.href = "https://www.tokyodisneyresort.jp/tc/index.html";
+        }
+      });
+    });
   </script>
 </head>
+
 <body>
 
-<p>Date: <input type="text" id="datepicker"></p>
-
+  <form>
+    Date: <input type="text" id="date">
+    <input type="reset" value="Reset">
+    <input id="submit" type="button" value="Submit">
+  </form>
 
 </body>
+
 </html>
