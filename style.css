@@ -1,0 +1,19 @@
+body {
+    width: 40%;
+    margin: auto;
+    margin-top: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: pink;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 7em;
+}
