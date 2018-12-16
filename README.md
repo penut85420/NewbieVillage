@@ -38,3 +38,20 @@
 ---
 
 ## Checkpoint Lv.2
++ JQuery: [Boy or Man](https://penut85420.github.io/NewbieVillage/page2.html)
++ RoR: [Hello World](https://github.com/penut85420/NewbieVillage/tree/master/hello_rails)
++ CSS: [Tarot Page](https://github.com/penut85420/NewbieVillage/blob/master/page.html)
++ GitHub Pages: [Here!](https://penut85420.github.io/NewbieVillage/page.html)
+
+## Checkpoint Lv.2.5
++ 九九乘法表：完成
++ 自動產生表格：完成
++ 讀取檔案：
+    + 基本顯示：完成
+    + 從參數取得檔案路徑：完成
+    + 加入輸出參數：完成
++ 玩轉字串轉換：123456
+    + MD5 Hash: e10adc3949ba59abbe56e057f20f883e
+    + SHA1 Hash: 7c4a8d09ca3762af61e59520943dc26494f8941b
+    + Base64Encode: MTIzNDU2
+    + URLEncode: 123456
